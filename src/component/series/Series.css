@@ -1,0 +1,8 @@
+.series{
+  height: auto;
+  min-height: 800px;
+  background-image:url('../../../public/backgroundMarvel.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}

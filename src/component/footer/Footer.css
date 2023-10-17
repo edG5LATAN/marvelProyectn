@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    && span{
+        color: gold;
+        font-weight: bold;
+    }
+}

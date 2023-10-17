@@ -1,0 +1,36 @@
+.comic{
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  background-image:url('../../../public/backgroundMarvel.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   gap: 2em;
+   align-items: center;
+   padding: 15px 0;
+}
+.contenedor-comic{
+  width: 90%;
+  flex-direction: col;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.comic-btn{
+  margin-top: 10px;
+  width: 120px;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+@media (max-width:800px) {
+  .contenedor-comic{
+    width: 98%;
+  }
+}
