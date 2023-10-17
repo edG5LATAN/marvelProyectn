@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Comic.css'
-import { comicId } from '../../service/comicMarvel'
+import { comicId } from '../../service/comicMarvel.js'
 import { Link, useParams } from 'react-router-dom';
 import Card2 from '../cardSerie.js/Card2.js';
-import Cargando from '../cargando/Cargando';
+import Cargando from '../cargando/Cargando.js';
 
 function Comic() {
 
@@ -12,7 +12,7 @@ function Comic() {
   
   useEffect(() => {
     comicId(id,setdata)
-  },[])
+  },[id])
 
   return (
     <div className='comic'>

@@ -9,20 +9,23 @@
   width: 90%;
   display: flex;
   justify-content: center;
-  /* background-color: blue; */
   margin: 20px 0;
   padding: 10px 5px;
   box-sizing: border-box;
   border-radius: 10px;
 }
 .home2-img{
-  width: 500px;
- height: 550px; 
-  padding: 5px;
+  width: 50%;
+ /* height: 550px;  */
+  padding: 0 5px;
   border-radius: 15px;
 }
 .home2-contenedor2-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
+  gap: 1em;
   text-align: center;
   padding-top: 30px;
   background-color: rgba(255, 255, 255, 0.445);
@@ -61,14 +64,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    /* background-color: blue; */
+    align-items: center;
     margin: 20px 0;
     padding: 10px 5px;
     box-sizing: border-box;
     border-radius: 10px;
   }
+  .home2-contenedor2-card{
+    height: 550px;
+  }
   .home2-img{
     width: 50%;
+    height: 550px;
     padding:0 5px;
   }
 }
@@ -91,6 +98,7 @@
     padding-top: 30px;
     background-color: rgba(255, 255, 255, 0.445);
     border-radius: 10px;
+    height: auto;
   }
   .home2-p{
     padding: 15px;

@@ -13,3 +13,4 @@ export const seriesId=(id,setdata)=>{
         console.log(error)
       }
 }
+

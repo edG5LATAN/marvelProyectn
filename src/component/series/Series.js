@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Series.css'
 import { Link, useParams } from 'react-router-dom';
-import Card2 from '../cardSerie.js/Card2';
+import Card2 from '../cardSerie.js/Card2.js';
 import { seriesId } from '../../service/seriesMarvel.js';
-import Cargando from '../cargando/Cargando';
+import Cargando from '../cargando/Cargando.js';
 
 function Series() {
 
@@ -12,7 +12,7 @@ function Series() {
 
   useEffect(() => {
    seriesId(id,setdata)
-  }, [])
+  }, [id])
 
   console.log(data)
   return (
