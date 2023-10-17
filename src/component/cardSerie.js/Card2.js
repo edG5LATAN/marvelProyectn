@@ -7,9 +7,7 @@ function Card2({data}) {
     <div className='card2'>
       <div className="card2-contenedor">
       <div className="card2-contenedor-img">
-        {/* <Link to={`/home2/${data.id}`}> */}
          <img src={`${data.thumbnail.path}.${data.thumbnail.extension}`} alt="card2" />
-        {/* </Link> */}
       </div>
       <div className='card2-informacion'>
         <h2>{data.title}</h2>

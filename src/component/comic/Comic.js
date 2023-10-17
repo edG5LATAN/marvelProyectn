@@ -12,7 +12,7 @@ function Comic() {
   
   useEffect(() => {
     comicId(id,setdata)
-  }, [])
+  },[])
 
   return (
     <div className='comic'>
