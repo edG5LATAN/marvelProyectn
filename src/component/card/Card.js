@@ -11,7 +11,9 @@ function Card({data}) {
         </Link>
       </div>
       <p className="card-p">{data.name}</p>
-      <h6 className="card-h6">modify:{data.modified}</h6>
+      <div className="card-contenedor-p">
+       <h6 className="card-h6">modify:{data.modified}</h6>
+      </div>
     </div>
   );
 }

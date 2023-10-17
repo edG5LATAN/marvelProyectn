@@ -18,9 +18,9 @@ const resta=()=>{
 
   return (
     <div className='page'>
-      <button onClick={()=>resta()}>after</button>
-      <input type="number" readOnly value={page}/>
-      <button onClick={()=>suma()}>next</button>
+      <button className='page-button' onClick={()=>resta()}>after</button>
+      <input className='page-input' type="number" readOnly value={page}/>
+      <button className='page-button' onClick={()=>suma()}>next</button>
     </div>
   )
 }

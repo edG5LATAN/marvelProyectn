@@ -24,10 +24,10 @@
 @media (max-width:800px) {
   .card2-contenedor-img{
     height: 400px;
-    && img{
-      width: 100%;
-      height: 100%;
-    }
+  }
+  .card2-img{
+    width: 100%;
+    height: 100%;
   }
 
 }
@@ -39,10 +39,10 @@
   .card2-contenedor-img{
     width: 100%;
     overflow: hidden;
-    && img{
-      width: 100%;
-      height: 400px;
-    }
+  }
+  .card2-img{
+    width: 100%;
+    height: 400px;
   }
   .card2-informacion{
     width: 100%;

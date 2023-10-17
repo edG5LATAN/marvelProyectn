@@ -42,23 +42,32 @@
 }
 @media (max-width:480px) {
   .card{
-    width: 150px;
-    padding: 2px;
-    overflow: hidden;
-  }
-  .card-p{
-    font-weight: bold;
-    font-size: 12px;
-  }
-  .card-h6{
+    width: 163px;
     padding: 3px;
-    text-align: justify;
-    font-size: 8px;
   }
   .card-contenedor-img{
     width: 100%;
+    border-radius: 10px;
   }
   .card-img{
-    height: 180px;
+    width:100%;
+    object-fit: fill;
   }
+  .card-contenedor-p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .card-p{
+    font-size: 14px;
+  }
+  .card-h6{
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: justify;
+    white-space: initial;
+  }
+ 
 }

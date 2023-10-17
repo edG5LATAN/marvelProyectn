@@ -25,11 +25,11 @@
   .header {
     padding: 5px 0;
   }
-  .card-h1 {
+  .header-h1 {
     margin: 25px 0;
     font-size: 20px;
   }
-  .card-img {
+  .header-img {
     width: 60px;
   }
 }

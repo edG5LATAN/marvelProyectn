@@ -6,8 +6,8 @@
     padding: 10px 0;
     background-color: black;
     color: white;
-    && span{
-        color: gold;
-        font-weight: bold;
-    }
+}
+span{
+    color: gold;
+    font-weight: bold;
 }

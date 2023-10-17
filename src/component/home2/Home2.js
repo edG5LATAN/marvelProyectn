@@ -25,17 +25,17 @@ function Home2() {
             return <div className='home2' key={index}>
               <div className='home2'>
                 <div className='home2-contenedor-card'>
-                  <img src={`${res.thumbnail.path}.${res.thumbnail.extension}`} alt='prueba' />
+                  <img className='home2-img' src={`${res.thumbnail.path}.${res.thumbnail.extension}`} alt='prueba' />
                   <div className='home2-contenedor2-card'>
-                    <h2>{res.name}</h2>
-                    <p>{res.description}</p>
+                    <h2 className='home2-h2'>{res.name}</h2>
+                    <p className='home2-p'>{res.description}</p>
 
                     <div className='home2-botones'>
                       <Link to={`/comic/${res.id}`}>
-                        <button>Comics</button>
+                        <button className='home2-button'>Comics</button>
                       </Link>
                       <Link to={`/series/${res.id}`}>
-                        <button>series</button>
+                        <button className='home2-button'>series</button>
                       </Link>
                       
                     </div>

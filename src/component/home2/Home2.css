@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  min-height: 800px;
+  height: auto;
 }
 .home2-contenedor-card{
   width: 90%;
@@ -12,12 +14,12 @@
   padding: 10px 5px;
   box-sizing: border-box;
   border-radius: 10px;
-  && img{
-    width: 500px;
-   height: 550px; 
-    padding: 5px;
-    border-radius: 15px;
-  }
+}
+.home2-img{
+  width: 500px;
+ height: 550px; 
+  padding: 5px;
+  border-radius: 15px;
 }
 .home2-contenedor2-card{
   width: 50%;
@@ -25,33 +27,36 @@
   padding-top: 30px;
   background-color: rgba(255, 255, 255, 0.445);
   border-radius: 10px;
-  && p{
-    padding: 15px;
-    text-align: justify;
-  }&& h2{
-    padding: 10px 0;
-    font-size: 26px;
-    font-weight: bold;
-  }
+}
+.home2-p{
+  padding: 15px;
+  text-align: justify;
+}
+.home2-h2{
+  padding: 10px 0;
+  font-size: 26px;
+  font-weight: bold;
 }
 .home2-botones{
   display: flex;
   justify-content: space-evenly;
   padding: 10px 0;
   margin-top: 20px;
-  && button{
-    width: 140px;
-    padding: 4px 0;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-  }&& button:hover{
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-  }
-}@media (max-width:800px){
+}
+.home2-button{
+  width: 140px;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+.home2-button:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width:800px){
   .home2-contenedor-card{
     width: 100%;
     display: flex;
@@ -61,10 +66,10 @@
     padding: 10px 5px;
     box-sizing: border-box;
     border-radius: 10px;
-    && img{
-      width: 50%;
-      padding:0 5px;
-    }
+  }
+  .home2-img{
+    width: 50%;
+    padding:0 5px;
   }
 }
 @media (max-width:480px) {
@@ -73,12 +78,11 @@
     flex-direction: column;
     margin: 20px 0;
     padding: 10px 5px;
-   
-    && img{
-      width: 100%;
-     height: 300px; 
-      padding: 0px;
-    }
+  }
+  .home2-img{
+    width: 100%;
+   height: 300px; 
+    padding: 0px;
   }
   .home2-contenedor2-card{
     margin-top: 10px;
@@ -87,13 +91,14 @@
     padding-top: 30px;
     background-color: rgba(255, 255, 255, 0.445);
     border-radius: 10px;
-    && p{
-      padding: 15px;
-      text-align: justify;
-    }&& h2{
-      padding: 10px 0;
-      font-size: 26px;
-      font-weight: bold;
-    }
+  }
+  .home2-p{
+    padding: 15px;
+    text-align: justify;
+  }
+  .home2-h2{
+    padding: 10px 0;
+    font-size: 26px;
+    font-weight: bold;
   }
 }
