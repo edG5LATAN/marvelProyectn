@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className='header'>
       <Link to='/'>
-       <img src='/logo.png' alt='logo marvel' />
+       <img className='header-img' src='/logo.png' alt='logo marvel' />
       </Link>
-      <h1>api de marvel</h1>
+      <h1 className='header-h1'>api de marvel</h1>
     </div>
   )
 }

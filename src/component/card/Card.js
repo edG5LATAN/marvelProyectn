@@ -7,12 +7,11 @@ function Card({data}) {
     <div className="card">
       <div className="card-contenedor-img">
         <Link to={`/home2/${data.id}`}>
-         <img src={`${data.thumbnail.path}.${data.thumbnail.extension}`} alt="card" />
+         <img className="card-img" src={`${data.thumbnail.path}.${data.thumbnail.extension}`} alt="card" />
         </Link>
       </div>
-      <p>{data.name}</p>
-      <h6 className="card-h">modify:{data.modified}</h6>
-      {/* <p>{data.description}</p> */}
+      <p className="card-p">{data.name}</p>
+      <h6 className="card-h6">modify:{data.modified}</h6>
     </div>
   );
 }
