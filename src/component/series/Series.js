@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react'
 import './Series.css'
 import { Link, useParams } from 'react-router-dom';
 import Card2 from '../cardSerie.js/Card2.js';
-import { seriesId } from '../../service/seriesMarvel.js';
 import Cargando from '../cargando/Cargando.js';
+import { seriesId } from '../../service/apiMarvel';
 
 function Series() {
 
   const { id } = useParams();
   const[data,setdata]=useState([])
 
+  
   useEffect(() => {
    seriesId(id,setdata)
   }, [id])
