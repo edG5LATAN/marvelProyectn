@@ -8,7 +8,7 @@ function Header() {
       <Link to='/'>
        <img className='header-img' src='/logo.png' alt='logo marvel' />
       </Link>
-      <h1 className='header-h1'>api de marvel</h1>
+      <h1 className='header-h1'>api of marvel</h1>
     </div>
   )
 }
