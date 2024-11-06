@@ -1,71 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Proyecto de Api de marvel
 
-## Available Scripts
+Proyecto de visualizacion de tarjetas de super heroes de marvel con su informacion detallada y una implementacion de busqueda e implementacion de visualizacion de paginas. 
 
-In the project directory, you can run:
 
-### `npm start`
+![Logo](https://i.pinimg.com/originals/29/f6/1b/29f61bc3ce8f8d4710b9fb6f7bd5d151.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Informacion
 
-### `npm test`
+-Proyecto donde podras buscar cada personaje de historietas de marvel y ver detalle de su aparicion de su personaje en episodios en serie y comic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+para la elaboracion del proyecto usamos 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[React](https://es.react.dev/)
 
-### `npm run eject`
+[Vite](https://vite.dev/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[ApiMarvel](https://developer.marvel.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Axios](https://www.axios.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[VisualStudioCode](https://code.visualstudio.com/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## version
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Version 1.0.0
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Authors
 
-### Analyzing the Bundle Size
+- [Edwin Castro](https://www.linkedin.com/in/edwin-castro-13a763272/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🔗 Links
+link de web ya desplegada dale click 
+[![despliefue en GitHub](https://img.shields.io/badge/comic-marvel-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://marvel-proyect-api.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+link de perfil de linkedin para ver mas proyectos frontend y backend
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=gold)](https://www.linkedin.com/in/edwin-castro-13a763272/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Deployment
 
-### `npm run build` fails to minify
+para hacer deploy al proyecto usa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# marvelProyectn
+```bash
+  npm run dev
+```
+
